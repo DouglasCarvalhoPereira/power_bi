@@ -1,0 +1,10 @@
+Importação das Base de Dados
+Entendimento dos tipos de dados e colunas disponíveis.
+Quais perguntas o Dashboard precisa responder? (Perguntas definidas no briefing antes da criação.)
+	Qual corretor faz mais captações no mês?
+	Quais as etapas do contato precisamos melhorar?
+
+Tratamento dos dados e correção de tipos de dados.
+Perguntas relevantes que podem ser respondidas com os dados disponíveis.
+	Quais atividades (tipo) geram mais
+	
