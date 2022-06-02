@@ -1,10 +1,45 @@
-Importação das Base de Dados
-Entendimento dos tipos de dados e colunas disponíveis.
-Quais perguntas o Dashboard precisa responder? (Perguntas definidas no briefing antes da criação.)
-	Qual corretor faz mais captações no mês?
-	Quais as etapas do contato precisamos melhorar?
+1° - Importação das Base de Dados para o Power BI
+2° - Entendimento dos tipos de dados e colunas disponíveis.
+3° - Quais perguntas o Dashboard precisa responder? (Perguntas definidas no briefing antes da criação.)
+	Corretor faz mais captações no período?
+	Etapa no funil de captação que pode melhorar?
+	Quantidade de captação total e por vendedor?
+	Quanto é captado e quanto é sacado no período?
+	Qual período de maior saque e maior captação?
+	Qual a média mensal captada por corretor? E o total?
 
-Tratamento dos dados e correção de tipos de dados.
-Perguntas relevantes que podem ser respondidas com os dados disponíveis.
-	Quais atividades (tipo) geram mais
+	*Com a base de dados disponível é possível responder tais perguntas. Caso não fosse,
+iniciariamos um planejamento para coleta de tais dados.
 	
+
+4° - Tipos de dados que precisaram ser tratados.
+	- Coluna de captação foi convertida para tipo dado monetário.
+	- Tabela adicional com o nome dos corretores, funcionando como ID. Dessa forma, 
+	as tabelas foram relacionadas com segurança.
+
+5° - Tabelas relacionadas. Nesse caso em específico, por ser um exercício simples, a finalidade é a utilidade dos filtros.
+
+6° - Foram definidos os filtros:
+	- Corretores, para sabermos o desepenho um a um.
+	- O valor de captação, assim nos dando uma detalhamento maior de caminho até o valor.
+	- O dia de captação ou período. Assim permitindo identificar picos de saque, captação e outros detalhes
+	- O tipo de atividade. Identificando gargalos que podem ser melhorados, por corretor.
+	- Tipo de transação. Conseguimos analisar as carteiras que tiveram mais saques e quem sao seus corretores entre outros detalhes.
+	
+6° - Definindo layout do dashboard.
+     Com base na usabilidade do usuário e das tendências naturais de leitura. Culturamente, lemos em formato de Z. 
+     Começamos a leitura do deshboard pela esquerda em linha reta para direta, descemos na diagonal até
+     o canto inferior esquerdo, e continuamos seguindo em linha reta até o canto direito "Z".
+
+  	*Principais indicadores ficam no topo.
+	-SALDO ATUAL
+	-TOTAL DE CAPTAÇÃO(C)
+	-TOTAL DE SAQUES(D)
+	-QUANTIDADE DE CAPTAÇÃO
+	-CORRETOR COM MAIOR SALDO DE CAPTAÇÕES
+
+	*Captação distribuída em dias do período, permitindo visualizar os dias de maiores captações e saques.
+	*Valor de captação por corretor, do maior para o menor.
+	*Funil de contato com cliente. Em quais etapas podemos melhorar o desempenho.
+
+
