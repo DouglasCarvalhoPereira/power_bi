@@ -2,4 +2,4 @@
 
 #### LOADING...
 
-![desempenho_corretores](https://user-images.githubusercontent.com/65472072/170898616-c8c9ace4-cc5b-47bb-80ac-0b3f4adc7018.PNG)
+<img width="615" alt="desempenho_corretores" src="https://user-images.githubusercontent.com/65472072/171536413-076cc900-c79d-4346-b99d-f07519d63806.PNG">
